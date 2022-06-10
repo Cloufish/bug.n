@@ -414,8 +414,8 @@ Config_UI_saveSession() {
 
 ;; Key definitions
 ;; Window management
-#Down::View_activateWindow(0, +1)
-#Up::View_activateWindow(0, -1)
+#J::View_activateWindow(0, +1)
+#K::View_activateWindow(0, -1)
 #+Down::View_shuffleWindow(0, +1)
 #+Up::View_shuffleWindow(0, -1)
 #+Enter::View_shuffleWindow(1)
@@ -455,8 +455,8 @@ Config_UI_saveSession() {
 #f::View_setLayout(3)
 #m::View_setLayout(2)
 #t::View_setLayout(1)
-#Left::View_setLayoutProperty("MFactor", 0, -0.05)
-#Right::View_setLayoutProperty("MFactor", 0, +0.05)
+#H::View_setLayoutProperty("MFactor", 0, -0.05)
+#L::View_setLayoutProperty("MFactor", 0, +0.05)
 #^t::View_setLayoutProperty("Axis", 0, +1, 1)
 #^Enter::View_setLayoutProperty("Axis", 0, +2, 1)
 #^Tab::View_setLayoutProperty("Axis", 0, +1, 2)
